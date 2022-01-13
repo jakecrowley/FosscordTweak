@@ -13,6 +13,7 @@ NSString *fosscordURL;
 		newURL = [newURL stringByReplacingOccurrencesOfString:@"discord.com" withString:fosscordURL];
 		newURL = [newURL stringByReplacingOccurrencesOfString:@"gateway.discord.gg" withString:fosscordURL];
 		newURL = [newURL stringByReplacingOccurrencesOfString:@"cdn.discordapp.com" withString:fosscordURL];
+		newURL = [newURL stringByReplacingOccurrencesOfString:@"media.discordapp.com" withString:fosscordURL];
 
 		url = [NSURL URLWithString:newURL];
 	}

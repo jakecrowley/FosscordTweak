@@ -1,6 +1,6 @@
 Package: com.jakecrowley.fosscordtweak
 Name: FosscordTweak
-Version: 0.1
+Version: 0.3
 Architecture: iphoneos-arm
 Description: Redirects Discord API requests to Fosscord.
 Maintainer: Jake Crowley
