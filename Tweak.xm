@@ -12,6 +12,8 @@ NSString *fosscordURL;
 		NSString *newURL = url.absoluteString;
 		newURL = [newURL stringByReplacingOccurrencesOfString:@"discord.com" withString:fosscordURL];
 		newURL = [newURL stringByReplacingOccurrencesOfString:@"gateway.discord.gg" withString:fosscordURL];
+		newURL = [newURL stringByReplacingOccurrencesOfString:@"cdn.discordapp.com" withString:fosscordURL];
+
 		url = [NSURL URLWithString:newURL];
 	}
 	return %orig;

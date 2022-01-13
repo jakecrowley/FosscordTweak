@@ -11,6 +11,7 @@ FosscordTweak_FILES = Tweak.xm
 FosscordTweak_CFLAGS = -fobjc-arc
 FosscordTweak_EXTRA_FRAMEWORKS += Cephei
 
+DEBUG=0
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 SUBPROJECTS += fosscordtweakprefs
