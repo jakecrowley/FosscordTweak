@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>headerCellClass</key>
+				<string>HBPackageNameHeaderCell</string>
+				<key>packageIdentifier</key>
+				<string>com.jakecrowley.fosscordtweak</string>
+				<key>packageNameOverride</key>
+				<string>FosscordTweak</string>
+				<key>titleColor</key>
+				<string>#ffcdd9</string>
+				<key>subtitleColor</key>
+				<string>#aaaaaa</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<false/>
+				<key>defaults</key>
+				<string>com.jakecrowley.fosscordtweakprefs</string>
+				<key>key</key>
+				<string>tweakEnabled</string>
+				<key>label</key>
+				<string>Enable Tweak</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSEditTextCell</string>
+				<key>placeholder</key>
+				<string>fosscord.example.com</string>
+				<key>isURL</key>
+				<true/>
+				<key>defaults</key>
+				<string>com.jakecrowley.fosscordtweakprefs</string>
+				<key>key</key>
+				<string>fosscordURL</string>
+				<key>label</key>
+				<string>Fosscord URL</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Other</string>
+			</dict>
+
+			
+			<dict>
+				<key>cellClass</key>
+				<string>HBLinkTableCell</string>
+				<key>cell</key>
+				<string>PSButtonCell</string>
+				<key>action</key>
+				<string>github</string>
+				<key>label</key>
+				<string>GitHub</string>
+				<key>subtitle</key>
+				<string>Source Code</string>
+			</dict>
+
+		</array>
+		<key>title</key>
+		<string>FosscordTweak</string>
+	</dict>
+</plist>

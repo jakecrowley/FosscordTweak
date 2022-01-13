@@ -1,0 +1,10 @@
+Package: com.jakecrowley.fosscordtweak
+Name: FosscordTweak
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Redirects Discord API requests to Fosscord.
+Maintainer: Jake Crowley
+Author: Jake Crowley
+Section: Tweaks
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 13.0)
+Replaces: com.jakecrowley.fosscordtweak
